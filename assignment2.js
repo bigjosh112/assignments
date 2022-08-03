@@ -1,21 +1,21 @@
 let flower = "rose";
 
- if (flower = "rose"){
-    flower = "apple";
- } else {
-    flower = "rose";
- }
- 
-
- console.log(flower);
-
  let tree = "apple";
+ console.log(flower,tree);
 
- if (tree = "apple"){
-    tree = "rose";
- } else {
-    tree = "rose";
- }
+ let temp;
+ temp = flower;
+ console.log(temp);
+ 
+ flower = tree;
+
+
+
+
+ tree = temp;
+
+ console.log(flower, tree);
+
+
  
 
- console.log(tree);

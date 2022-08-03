@@ -1,13 +1,14 @@
 let Deebug = "even";
 
 
+
  if(Deebug = "even"){
     Deebug ="even";
  } else {
     Deebug ="odd";
  }
 
- console.log(Deebug);
+ console.log(Deebug.length);
 
 
  let institute = "even";
@@ -19,4 +20,4 @@ let Deebug = "even";
     institute ="even";
  }
 
- console.log(institute);
+ console.log(institute.length);
